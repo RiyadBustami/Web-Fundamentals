@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            margin-top: 1px;
+        }
+
+        #background {
+            background-color: rgb(108, 108, 204);
+            width: 600px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        table {
+            position: relative;
+            left: 10%;
+        }
+
+        button {
+            position: relative;
+            margin-top: 30px;
+            margin-bottom: 50px;
+            left: 40%;
+            width: 100px;
+        }
+
+        textarea {
+            position: relative;
+            top: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="background">
+        <div id="identity">
+            <h1>Riyad Busttami</h1>
+            <img src="/HTML/Portfolio/Personal_Photo.jpg" width="180px" height="180px" alt="Personal Photo" />
+        </div>
+        <br />
+        <div id="business">
+            <a href="https://github.com/RiyadBustami" target="_blank"><img src="/HTML/Portfolio/github_Logo.png"
+                    width="60px" height="60px" alt="github logo" /></a>
+            <a href="https://www.linkedin.com/in/riyad-bustami-010462214/" target="_blank"><img
+                    src="/HTML/Portfolio/LinkedIn_logo.png" width="60px" height="60px" alt="LinkedIn logo" /></a>
+            <a href="mailto:Riyad.Bustami@gmail.com" target="_blank"><img src="/HTML/Portfolio/Mail_logo.png"
+                    width="60px" height="60px" alt="Mail logo" /></a>
+        </div>
+        <div id="technologies">
+            <h2>Technologies</h2>
+            <table>
+                <tr>
+                    <th>Front-End</th>
+                    <th>Python</th>
+                    <th>JavaScript</th>
+                    <th>Database</th>
+                    <th>Concepts</th>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td></td>
+                    <td>REST</td>
+                </tr>
+            </table>
+        </div>
+        <div id="Social">
+            <h2>Facebook</h2>
+            <a href="https://www.facebook.com/Riyad.Bustami"><img src="/HTML/Portfolio/fb_logo.png" width="50px"
+                    height="50px" /></a>
+        </div>
+        <div id="ContactME">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" />
+                <br />
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="1" placeholder="Tell me something"></textarea>
+                <br>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
