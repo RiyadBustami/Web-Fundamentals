@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: darkgray;
+}
+.container {
+  margin: auto;
+  padding: 30px;
+}
+img {
+  height: 200px;
+}
+.top-block {
+  margin: 0px auto;
+  background-color: cyan;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.mid-block {
+  margin: 20px auto;
+  background-color: rebeccapurple;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom-block {
+  margin: 20px auto;
+  background-color: lawngreen;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.container h3 {
+  text-align: center;
+}
