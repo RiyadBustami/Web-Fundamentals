@@ -1,0 +1,32 @@
+.nav {
+  background-color: gray;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.nav > h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+ul {
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+}
+ul a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+ul button {
+  background-color: aquamarine;
+  border-radius: 0;
+  border-color: black;
+  border-width: 2px;
+  box-shadow: 3px 3px black;
+  font-family: "Courier New", Courier, monospace;
+}
