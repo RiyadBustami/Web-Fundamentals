@@ -1,25 +1,26 @@
-#buttons{
-    margin:30px;
+#buttons {
+  margin: 30px;
 }
-#search{
-border-radius: 20px;
-width:150px;
-height:25px;
-border-width: 5px;
-border: 3px solid aquamarine;
+#search {
+  color: aliceblue;
+  border-radius: 20px;
+  width: 150px;
+  height: 25px;
+  border-width: 5px;
+  border: 3px solid aquamarine;
 }
-#plus{
-border-radius: 50%;
-width: 30px;
-height: 30px;
-background-color: aquamarine;
-border: none;
-margin: 10px;
+#plus {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: aquamarine;
+  border: none;
+  margin: 10px;
 }
-#account-creation{
-border-radius: 0%;;
-border:2px solid black;
-box-shadow:5px 2px black;
-background-color: rgb(48, 48, 197);
-color:white;
+#account-creation {
+  border-radius: 0%;
+  border: 2px solid black;
+  box-shadow: 5px 2px black;
+  background-color: rgb(48, 48, 197);
+  color: white;
 }
