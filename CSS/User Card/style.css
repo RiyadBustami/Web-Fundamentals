@@ -33,7 +33,7 @@
   position: absolute;
 }
 .marker-img {
-  height: 10px;
+  height: 15px;
   width: 10px;
 }
 .gear-img {
@@ -42,4 +42,8 @@
 }
 span {
   font-family: cursive;
+}
+span.user-name {
+  font-size: x-large;
+  font-weight: 1000;
 }
