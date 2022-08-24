@@ -4,12 +4,15 @@
 .col {
   flex: 1;
   background-color: aqua;
+  margin: 5px;
 }
 .col-2 {
   flex: 2;
   background-color: rebeccapurple;
+  margin: 5px;
 }
 .col-3 {
   flex: 3;
   background-color: aquamarine;
+  margin: 5px;
 }
