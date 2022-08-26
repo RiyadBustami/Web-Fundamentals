@@ -13,10 +13,17 @@ h1 {
 img {
   height: 200px;
 }
+
+.top-block,
+.bottom-block,
+.bottom-block {
+  display: flex;
+}
+
 .top-block {
   margin: 0px auto;
   background-color: cyan;
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
   padding: 20px;
   align-content: center;
