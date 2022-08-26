@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+}
+.page {
+  /* container for the whole page */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-title {
+  margin-left: 15px;
+}
+.navbar {
+  /* page's nav-bar */
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0px;
+}
+.nav-links {
+  /* links inside the navigation bar */
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar > h1 {
+  color: azure;
+}
+ul {
+  list-style: none;
+}
+ul a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+ul button {
+  background-color: #17a2b8;
+  width: 70px;
+  height: 20px;
+  border-width: 0px;
+}
+main {
+  display: flex;
+}
+.left-side {
+  /* left side of the main */
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+.right-side {
+  /* right side of the main */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-header,
+.left-side-card {
+  height: 300px;
+  width: 400px;
+}
+.card-header {
+  /*USER CARD's DIVISION*/
+  border-radius: 10px;
+  border: 3px solid gray;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+}
+.cover {
+  /*User card's cover photo*/
+  background-color: #17a2b8;
+  flex: 1;
+}
+.info {
+  /*information inside user card*/
+  background-color: white;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  justify-content: end;
+}
+.user-profile {
+  height: 100px;
+  width: 100px;
+  display: block;
+  left: 5%;
+  top: 13%;
+  position: absolute;
+  border: 3px white solid;
+  border-radius: 50%;
+  outline: gray solid 2px;
+}
+.marker-img {
+  height: 15px;
+  width: 10px;
+}
+.gear-img {
+  height: 10px;
+  width: 10px;
+}
+span.user-name {
+  font-size: x-large;
+  font-weight: 1000;
+}
+.left-side-card {
+  /* left side cards styling */
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  height: 300px;
+  border-radius: 10px;
+  border: 3px solid gray;
+  margin-top: 20px;
+}
+.education-navbar {
+  background-color: #000000;
+  padding: 5px;
+  align-items: center;
+  margin-top: 0px;
+  width: 600px;
+  height: 300px;
+  flex: 1;
+}
+.education-details {
+  padding: 5px;
+  flex: 9;
+  background-color: white;
+}
+main > div > div {
+  /* each card's container styling in common */
+  overflow: hidden;
+}
+h2 {
+  /* all cards labels */
+  color: white;
+}
+date {
+  font-weight: 1;
+  color: #808088;
+}
+.right-side-card {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 3px solid gray;
+  margin-top: 20px;
+}
+#connection-rqst-card {
+  height: 210px;
+}
+#connection-card {
+  height: 420px;
+}
+#connection-rqst-details {
+  flex: 2;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+#connection-details {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.right-side-cards-navbar {
+  display: flex;
+  flex: 1;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+.right-side-cards-navbar span {
+  color: white;
+}
+.right-side-cards-navbar-number {
+  background-color: gray;
+  border-radius: 50px;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  min-width: 40px;
+}
+.connection-rqst-item,
+.connection-item {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.connection-rqst-item img,
+.connection-item img {
+  height: 50px;
+  width: 50px;
+}
+.view-more-link {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-top: 3px solid gray;
+}
+.connection-item-username,
+.connection-rqst-item-username {
+  font-weight: 800;
+  font-size: x-large;
+  text-align: center;
+  flex: 1;
+}
+figure {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
