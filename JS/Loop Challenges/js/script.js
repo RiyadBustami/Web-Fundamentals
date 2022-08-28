@@ -16,3 +16,5 @@ console.log("Challenge #5");
 let fact=1;
 for(let i=1;i<=12;i++)fact*=i;
 console.log(fact);
+
+alert('Go to Console');
