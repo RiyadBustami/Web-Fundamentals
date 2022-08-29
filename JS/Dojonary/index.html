@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Dojonary</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dojonary</h1>
+        <input type="search" name="top-search" id="top-search" placeholder="Search">
+        <button onclick="change(this)">Login</button>
+    </header>
+    <main>
+        <aside id="left-side-content">
+            <div class="left-content-container">
+                <div class="left-content-label">
+                    <h2>ninja</h2>
+                    <span>noun</span>
+                    <span>Plural: ninjas</span>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="left-content-details">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="left-content-container">
+                <div class="left-content-label">
+                    <h2>ninja</h2>
+                    <span>noun</span>
+                    <span>Plural: ninjas</span>
+                    <button>37 likes</button>
+                </div>
+                <div class="left-content-details">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </aside>
+        <aside id="right-side-content">
+            <div class="right-content-container">
+                <h2>Dojonary is defined by YOU</h2>
+                <button onclick="remove(this)">Add Definition</button>
+            </div>
+        </aside>
+    </main>
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
