@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  font-family: cursive;
+}
+header {
+  background-color: black;
+  width: 70%;
+  height: 50px;
+  margin: 0 auto;
+}
+header h1 {
+  color: white;
+  margin: auto 25px;
+}
+#top-label {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+}
+main {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+}
+.left-side-panel {
+  flex: 1;
+}
+#profile-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+}
+#profile-image-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+#profile-image-container img {
+  height: 50%;
+  width: 50%;
+}
+#profile-add-avatar {
+  margin-top: 20%;
+  flex: 1;
+}
+#profile-username {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  flex: 1;
+}
+#main-section {
+  flex: 3;
+  margin-left: 2%;
+}
+.post-container {
+  display: flex;
+  border: 3px solid black;
+  height: 150px;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.post-container-top {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+.post-username {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.post-likes-num {
+  font-weight: bold;
+  font-size: medium;
+  text-align: right;
+}
+.post-container-top button {
+  border-radius: 0;
+  border: 2px solid black;
+  box-shadow: 3px 3px;
+  background-color: #ffd966;
+  height: 30px;
+  font-weight: bold;
+}
+.post-container-bottom {
+  flex: 1;
+  text-align: left;
+  padding: 2%;
+  font-weight: 800;
+}
