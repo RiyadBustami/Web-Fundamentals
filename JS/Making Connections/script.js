@@ -31,7 +31,6 @@ function deny(element){
 }
 
 function changeName(){
-    let userNameSpan = document.querySelector(".card-body h1");
-    userNameSpan.textContent="any other name";
+    document.querySelector(".card-body h1").textContent="any other name";
 }
 
