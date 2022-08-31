@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <h1>DojoWeather</h1>
+            <div id="cities">
+                <a onclick="alert(' Loading weather data...')" href="#">Burbank</a>
+                <a onclick="alert(' Loading weather data...')" href="#">Chicago</a>
+                <a onclick="alert(' Loading weather data...')" href="#">Dallas</a>
+            </div>
+        </div>
+    </header>
+    <div id="top-panel">
+        <h2>San Jose</h2>
+        <div id="temp-set">
+            <label for="temperature">show temperature in</label>
+            <select name="temperature" id="temperature" onchange="toggleTemp(this)">
+                <option value="Celsius" selected>°C</option>
+                <option value="Fehrenheit">ºF</option>
+            </select>
+        </div>
+    </div>
+    <main>
+        <div class="day-forecast">
+            <h3>Today</h3>
+            <div class="forecast-img">
+                <img src="assets/some_rain.png" alt="some rain">
+            </div>
+            <div class="forecast-details">some rain</div>
+            <div class="forecast-degrees">
+                <div class="highest-degree">24°</div>
+                <div class="lowest-degree">18°</div>
+            </div>
+        </div>
+        <div class="day-forecast">
+            <h3>Tomrrow</h3>
+            <div class="forecast-img">
+                <img src="assets/some_sun.png" alt="some sun">
+            </div>
+            <div class="forecast-details">some sun</div>
+            <div class="forecast-degrees">
+                <div class="highest-degree">27°</div>
+                <div class="lowest-degree">19°</div>
+            </div>
+        </div>
+        <div class="day-forecast">
+            <h3>Friday</h3>
+            <div class="forecast-img">
+                <img src="assets/some_clouds.png" alt="some clouds">
+            </div>
+            <div class="forecast-details">some clouds</div>
+            <div class="forecast-degrees">
+                <div class="highest-degree">21°</div>
+                <div class="lowest-degree">16°</div>
+            </div>
+        </div>
+        <div class="day-forecast">
+            <h3>Saturday</h3>
+            <div class="forecast-img">
+                <img src="assets/some_sun.png" alt="some sun">
+            </div>
+            <div class="forecast-details">some sun</div>
+            <div class="forecast-degrees">
+                <div class="highest-degree">26°</div>
+                <div class="lowest-degree">21°</div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div id="cookies-image">
+            <img src="assets/cookie.png" alt="a cookie picture">
+        </div>
+        <div id="cookies-info">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cokkies (sadly not the edible ones) to personalize content and ads, to provide social media
+                features and to analyse our traffic. <a href="#">Read more...</a></p>
+        </div>
+        <div id="cookies-accept-button">
+            <button onclick="hideFooter()"> I Accept</button>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
