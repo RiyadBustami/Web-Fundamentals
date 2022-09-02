@@ -1,5 +1,5 @@
 let displayContent=document.querySelector('#display');
-let Op='';
+let op='',opFlag=false;
 let firstElement=0;
 
 function press(num){
@@ -12,24 +12,29 @@ function press(num){
 }
 function clr(){
     displayContent.innerText=0;
-    Op='';
+    op='';
     firstElement='';
 }
 function setOP(operation){
-    if(Op==''){
+    if(!opFlag){
         firstElement=parseFloat(displayContent.innerText);
         displayContent.innerText=0;
         console.log(operation);
-        Op=operation;
+        op=operation;
+        opFlag=true;
+    }
+    else if(opFlag&&op!=''){//if an operation changed after choosing the first one no need to clear screan
+        op=operation;
     }
 }
 function calculate(){
     let secondElement=parseFloat(displayContent.innerText);
-    if(Op=='+')displayContent.innerText=firstElement+secondElement;
-    if(Op=='-')displayContent.innerText=firstElement-secondElement;
-    if(Op=='*')displayContent.innerText=firstElement*secondElement;
-    if(Op=='/')displayContent.innerText=firstElement/secondElement;
+    if(op=='+')displayContent.innerText=firstElement+secondElement;
+    if(op=='-')displayContent.innerText=firstElement-secondElement;
+    if(op=='*')displayContent.innerText=firstElement*secondElement;
+    if(op=='/')displayContent.innerText=firstElement/secondElement;
     firstElement=0;
     secondElement=0;
-    Op='';
+    op='';
+    opFlag=false;
 }
