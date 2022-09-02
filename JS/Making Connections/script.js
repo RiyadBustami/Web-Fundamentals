@@ -20,6 +20,7 @@ function increaseConnections(){
 }
 
 function accept(element){
+    alert(element.parentElement.parentElement.children[0].innerText+' was accepted.');
     deleteItem(element.parentElement.parentElement);
     decreaseConnectionReqs();
     increaseConnections();
@@ -32,5 +33,6 @@ function deny(element){
 
 function changeName(){
     document.querySelector(".card-body h1").textContent="any other name";
+    document.querySelector(".card-body h1").style.color= 'blue';
 }
 
